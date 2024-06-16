@@ -25,7 +25,9 @@ h5,
 h6,
 p {
   font-size: 18px;
-  font-weight: 400; 
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0; 
 }
 
 ul {

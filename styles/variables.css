@@ -26,6 +26,7 @@
   --menu-align: center;
   --menu-columns: 1fr;
   --menu-gap: 13px;
+  --menu-color: var(--accent-color);
 }
 
 @media (width >= 768px) {

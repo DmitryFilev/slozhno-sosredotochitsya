@@ -14,5 +14,6 @@
     --decor-hover: #FF007066;
     --background-img: url("../images/cover-image-dark.png");
     --display-bulb: block;
+    --menu-color: var(--accent-color);
   }
 

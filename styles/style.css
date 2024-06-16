@@ -100,7 +100,7 @@
 .header__theme-menu-button {
     background-color: transparent;
     border-style: none;
-    color: currentColor;
+    color: var(--menu-color);
     text-transform: lowercase;
     inline-size: 100%;
 }
@@ -143,7 +143,9 @@
     inline-size: 100%;
     font-weight: 700;
 }
-
+.header__text .title-decor {
+    margin: 0;
+}
 .cards {
     display: grid;
     gap: calc(var(--card-marg) + var(--decor-pad));
@@ -195,7 +197,7 @@
 .card__part {
     display: grid;
     grid-template-rows: min-content;
-    gap: 10px;
+    gap: 0;
 }
 
 .card__part .title-decor{
