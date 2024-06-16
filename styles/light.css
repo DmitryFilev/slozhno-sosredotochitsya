@@ -1,7 +1,8 @@
 .page.theme_light {
   --text-color: #353430;
   --accent-color: #FF8DCB;
-  --header-color: #FFC2E6;
+  --logo-color: #FFC2E6;
+  --logo-sh-color: #FF0070;
   --title-color: var(--text-color);
   --decor-color: var(--text-color);
   --decor-hover: #32312D66;
@@ -13,7 +14,8 @@
   :root {
   --text-color: #353430;
   --accent-color: #FF8DCB;
-  --header-color: #FFC2E6;
+  --logo-color: #FFC2E6;
+  --logo-sh-color: #FF0070;
   --title-color: var(--text-color);
   --decor-color: var(--text-color);
   --decor-hover: #32312D66;

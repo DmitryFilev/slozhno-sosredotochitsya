@@ -1,15 +1,63 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
-  --header-color: #DB00FF;
-  --header-sh-color: var(--accent-color);
+  --logo-color: #DB00FF;
+  --logo-sh-color: var(--accent-color);
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --logo-line-h: 1.4ch;
+  --logo-justify-self: center;
   --title-color: #000028;
   --decor-color: var(--accent-color);
   --decor-hover: #FF007066;
   --background-img: url("../images/cover-image-dark.png");
   --display-bulb: block;
+  --header-text-just: center;
+  --header-text-w: ;
+  --decor-pad: 10px;
+  --card-marg: 40px;
+  --logo-start: 10px;
+  --card__part-gap: 10px;
+  --card-columns: auto;
+  --card-title-w: 100%;
+  --cause-list-columns: auto;
+  --menu-right: var(--decor-pad); 
+  --menu-top: 0;
+  --menu-just: self-end;
+  --menu-align: center;
+  --menu-columns: 1fr;
+  --menu-gap: 13px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --decor-pad: 20px;
+    --logo-start: 0;
+    --logo-line-h: 0.8ch;
+    --header-text-just: self-end;
+    --header-text-w: 47.7vw;
+    --card-marg: 60px;
+    --card-columns: auto auto;
+    --card-title-w: 30.7vw;
+  }
+  .header .logo-decor {
+    --logo-justify-self: inset-inline-start;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --logo-line-h: 0.94ch;
+    --header-text-w: 47.9vw;
+    --menu-right: 0; 
+    --menu-top: var(--decor-pad);
+    --menu-just: center;
+    --menu-align: start;
+    --menu-columns: 1fr 1fr 1fr;
+    --menu-gap: 12px;
+  }
+
+  .section-causes .list{
+    --cause-list-columns: 1fr 1fr 1fr;
+  }
 }
