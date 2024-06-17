@@ -254,6 +254,7 @@
 
 .footer {
     block-size: 100vh;
+    min-block-size: 668px;
     inline-size: 100%;
     padding: var(--decor-pad)
 }
